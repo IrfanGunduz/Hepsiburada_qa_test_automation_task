@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/irfan/IdeaProjects/irfan_gunduz_hepsiburada_odev/specs/Scenarios/HB-TC01.spec"
+]
