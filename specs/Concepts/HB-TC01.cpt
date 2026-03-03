@@ -1,0 +1,60 @@
+Created by irfan on 26.02.2026
+
+This is a concept file with following syntax for each concept.
+
+# Tarayıcı Açılır Çerez popup varsa kabul edilir
+* "btn_CerezKabul" li butonuna tıkla
+
+# Ana Sayfada Giriş yap butonuna tıklanır
+* "btn_Kullanici_GirisYap_Alani" li üzerine gel
+* "btn_Kullanici_GirisYap_Butonu" li butonuna tıkla
+
+# Giriş yap ekranında başarıyla email <data_user_mail> yazılır
+* "input_Kullanici_Mail_Butonu" li üzerine gel
+* "input_Kullanici_Mail_Butonu" li butonuna tıkla
+* "input_Kullanici_Mail_Butonu" li elemente <data_user_mail> değerini yaz
+
+# Giriş yap ekranında başarıyla password <data_user_password> yazılır
+* "input_Kullanici_Password_butonu" li üzerine gel
+* "input_Kullanici_Password_butonu" li butonuna tıkla
+* "input_Kullanici_Password_butonu" li elemente <data_user_password> değerini yaz
+
+# Giriş yap ekranında giriş yap butonuna tıklanır
+* "btn_GirisYap" li butonuna tıkla
+
+# Giriş yap'ın başarıyla tamamlandığı doğrulanır
+* "lbl_Kullanici_Dogrulama" li elementini kontrol "kullanici_dogrulama" et
+
+# Arama alanına tıklanır ve <data_search> bilgisayar yazılır ve enter'a basılır
+* "box_AramaContainer" li butonuna tıkla
+* "inp_Arama" li elementinin görünmesi beklenir
+* "inp_Arama" li elemente <data_search> değerini yaz ve enterla
+
+# Arama sonuçlarının gelmesi beklenir
+* "lst_AramaSonuclari" li elementinin görünmesi beklenir
+
+# Ürün listesi görünür olduğu doğrulanır
+* "lst_AramaSonuclari" li elementinin görünür olduğu doğrulanır
+
+# İkinci satırdaki birinci ürün seçilir
+* "prd_IkinciSatirBirinciUrun" li elemente tıklanır ve sayfanın değişmesi beklenir
+
+# Ürüne tıklanır ve ürün sayfasının açıldığı doğrulanır
+* "lbl_UrunDetay" li elementinin görünmesi beklenir
+* "lbl_UrunDetay" li elementinin görünür olduğu doğrulanır
+* "lbl_UrunAdi" li elementinin texti "selected_product_name" olarak saklanır
+
+# Sepete ekle butonuna tıklanarak ürün sepete eklenir
+* "btn_SepeteEkle" li üzerine gel 2 saniye bekle ve tıkla
+
+# Ürünün sepete eklendiğine dair doğrulama mesajı beklenir
+* "lbl_SepeteEklendiMesaji" li elementinin görünmesi beklenir
+
+# Kullanıcı sepetini görüntülemek için Sepetim butonuna tıklanır ve sepetin açıldığı doğrulanır
+* "btn_Sepetim" li butonuna tıkla
+* "lbl_SepetSayfasi" li elementinin görünür olduğu doğrulanır
+
+# Eklenen ürünün adının sepette görünür olduğu doğrulanır
+* "lbl_SepettekiUrunAdi" li elementinin texti saklanan "selected_product_name" değerini içerir
+
+

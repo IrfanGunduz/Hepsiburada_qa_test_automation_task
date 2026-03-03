@@ -1,0 +1,93 @@
+[
+  {
+    "key":"btn_Kullanici_GirisYap_Alani",
+    "value":"myAccount",
+    "type":"id"
+  },
+  {
+    "key":"btn_Kullanici_GirisYap_Butonu",
+    "value":"login",
+    "type":"id"
+  },
+  {
+    "key":"input_Kullanici_Mail_Butonu",
+    "value":"txtUserName",
+    "type":"id"
+  },
+  {
+    "key":"input_Kullanici_Password_butonu",
+    "value":"txtPassword",
+    "type":"id"
+  },
+  {
+    "key":"btn_GirisYap",
+    "value":"btnLogin",
+    "type":"id"
+  },
+  {
+    "key":"box_AramaContainer",
+    "value":"input[data-test-id='search-bar-input']",
+    "type":"css"
+  },
+  {
+    "key":"inp_Arama",
+    "value":"input[data-test-id='search-bar-input']",
+    "type":"css"
+  },
+  {
+    "key":"btn_CerezKabul",
+    "value":"onetrust-accept-btn-handler",
+    "type":"id"
+  },
+  {
+    "key":"lbl_Kullanici_Dogrulama",
+    "value":"span.sf-OldMyAccount-sS_G2sunmDtZl9Tld5PR",
+    "type":"css"
+  },
+  {
+    "key": "lst_AramaSonuclari",
+    "value": "//h1[@class='searchResultSummaryNewDesign-CMkgzAdtKhPA61eHquT8']",
+    "type": "xpath"
+  },
+  {
+    "key": "prd_IkinciSatirBirinciUrun",
+    "value": "(//a[@href and .//h3])[5] | (//a[@href and .//img])[5]",
+    "type": "xpath"
+  },
+  {
+    "key": "lbl_UrunDetay",
+    "value": "//h1[@class='xeL9CQ3JILmYoQPCgDcl']",
+    "type": "xpath"
+  },
+  {
+    "key": "lbl_UrunAdi",
+    "value": "//h1[@class='xeL9CQ3JILmYoQPCgDcl']",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_SepeteEkle",
+    "value": "button[data-test-id='addToCart']",
+    "type": "css"
+  },
+  {
+    "key": "lbl_SepeteEklendiMesaji",
+    "value": "//span[@class='checkoutui-ProductOnBasketHeader-nOvp_U8bHbLzgKbSUFaz']",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_Sepetim",
+    "value": "//button[normalize-space()='Sepete git']",
+    "type": "xpath"
+  },
+  {
+    "key": "lbl_SepetSayfasi",
+    "value": "//h1[contains(.,'Sepetim') or contains(.,'Sepet')] | //span[contains(.,'Sepetim')]",
+    "type": "xpath"
+  },
+  {
+    "key": "lbl_SepettekiUrunAdi",
+    "value": "//div[@class='product_name_2Klj3']",
+    "type": "xpath"
+  }
+
+]
